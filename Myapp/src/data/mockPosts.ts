@@ -1,0 +1,55 @@
+import { BlogPost } from '@/types/blog';
+
+export const mockPosts: BlogPost[] = [
+  {
+    id: '1',
+    title: 'モックデータテスト-1',
+    slug: 'mock-data-test-1',
+    excerpt: 'これはモックデータのテスト-1です',
+    content: '記事の本文がここに入ります...',
+    thumbnail: 'https://placehold.co/600x400',
+    category: 'tutorial',
+    tags: [
+      { id: '1', name: 'テスト1', slug: 'test-1' },
+      { id: '2', name: 'テスト2', slug: 'test-2' },
+    ],
+    status: 'published',
+    publishedAt: '2024-03-01t12:00:00Z',
+    updateAt: '2024-03-01t12:00:00Z',
+    readingTime: 5,
+  },
+  {
+    id: '2',
+    title: 'モックデータテスト-2',
+    slug: 'mock-data-test-2',
+    excerpt: 'これはモックデータのテスト-2です',
+    content: '記事の本文がここに入ります...',
+    thumbnail: 'https://placehold.co/600x400',
+    category: 'technique',
+    tags: [
+      { id: '3', name: 'テスト3', slug: 'test-3' },
+      { id: '4', name: 'テスト4', slug: 'test-4' },
+    ],
+    status: 'published',
+    publishedAt: '2024-03-05t12:00:00Z',
+    updateAt: '2024-03-05t12:00:00Z',
+    readingTime: 8,
+  },
+  {
+    id: '3',
+    title: 'モックデータテスト-3',
+    slug: 'mock-data-test-3',
+    excerpt: 'これはモックデータのテスト-3です',
+    content: '記事の本文がここに入ります...',
+    thumbnail: 'https://placehold.co/600x400',
+    category: 'diary',
+    tags: [
+      { id: '5', name: 'テスト5', slug: 'test-5' },
+      { id: '6', name: 'テスト6', slug: 'test-6' },
+    ],
+    status: 'published',
+    publishedAt: '2024-03-10T12:00:00Z',
+    updateAt: '2024-03-10T12:00:00Z',
+    readingTime: 6,
+  },
+];
