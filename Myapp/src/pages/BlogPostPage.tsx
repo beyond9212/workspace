@@ -32,11 +32,8 @@ const BlogPostPage = () => {
       }
 
       setPost(mockPosts[currentIndex]);
-
       setPrevPost(currentIndex > 0 ? mockPosts[currentIndex - 1] : null);
-
       setNextPost(currentIndex < mockPosts.length - 1 ? mockPosts[currentIndex + 1] : null);
-
       setIsLoading(false);
     };
     fetchPost();
