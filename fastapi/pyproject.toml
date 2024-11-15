@@ -14,3 +14,7 @@ uvicorn = {extras = ["standard"], version = "^0.32.0"}
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+http://api.weatherapi.com/v1/current.json?key=474b99ec3eea4648bac84701241511&q=London&aqi=no
+474b99ec3eea4648bac84701241511
